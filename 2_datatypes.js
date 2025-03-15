@@ -275,3 +275,19 @@ console.log(dateFormatter.format(date)); // "15/03/2025" (depending on current d
 
 let typedArray = new Uint8Array([1, 2, 3, 4, 5]);
 console.log(typedArray); // Uint8Array(5) [1, 2, 3, 4, 5]
+
+//? typeof operator
+// The typeof operator in JavaScript is used to determine the type of a given variable or expression. It returns a string indicating the type of the operand. 
+// This operator is particularly useful when you want to check the data type of a variable dynamically.
+
+let x = 42;
+console.log(typeof x); // "number"
+
+let name = "Alice";
+console.log(typeof name); // "string"
+
+let isActive = true;
+console.log(typeof isActive); // "boolean"
+
+let value;
+console.log(typeof value); // "undefined"
